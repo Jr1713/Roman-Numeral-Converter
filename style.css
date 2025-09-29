@@ -99,7 +99,7 @@ button:hover {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* 🔹 Responsive Adjustments */
+/* Responsive */
 @media (max-width: 600px) {
   .container {
     padding: 1.5rem;
