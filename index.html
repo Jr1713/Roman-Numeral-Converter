@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Roman Numeral Converter</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PH Phone Validator</title>
+  <!-- Link to external CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Roman Numeral Converter</h1>
-    <p class="subtitle">Convert numbers (1 – 3999) into Roman numerals</p>
-    
-    <input type="number" id="number" placeholder="Enter a number" />
-    
-    <button id="convert-btn">Convert</button>
-    
-    <div id="output"></div>
+    <h1>📱 PH Phone Validator</h1>
+    <p>Enter a Philippine phone number:</p>
+    <input id="user-input" type="text" placeholder="e.g. 09171234567 or +639171234567"/>
+    <div class="buttons">
+      <button id="check-btn">Check</button>
+      <button id="clear-btn">Clear</button>
+    </div>
+    <div id="results-div"></div>
   </div>
 
-  <script src="script.js" defer></script>
+  <!-- Link to external JS -->
+  <script src="script.js"></script>
 </body>
 </html>
